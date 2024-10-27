@@ -7,21 +7,14 @@
 */
 
 body {
-    padding: 20px 136px;
-    /* margin: 0px; */
-
-
-}
-
-.c-1 {
-    background-color: #f1e9e9;
+    padding: 0px;
+    margin: 0px;
 }
 
 .section-1 {
-    padding: 30px;
-
+    background-color: #f1e9e9;
+    padding: 37px 136px;
 }
-
 nav {
 
     background-color: white;
@@ -102,7 +95,10 @@ nav {
 }
 
 .section-2 {
-    display: flex;
+    padding: 37px 136px;
+}
+.container-article{
+    display:flex ;
 }
 
 .div2 {
@@ -120,11 +116,6 @@ nav {
 .class-p4 {
     color: #6F6F6F;
     font-size: 20px;
-}
-
-.section-2 {
-    padding: 20px;
-
 }
 
 .total {
@@ -237,10 +228,6 @@ nav {
     font-size: 20px;
 }
 
-
-
-
-
 .grid-ke2 {
     display: inline-grid;
     grid-template-rows: 1fr 1fr;
@@ -260,14 +247,10 @@ nav {
 .section-3 {
     background-color: hsl(0, 22%, 93%);
 
-
 }
 
 .div-sec3 {
-
     text-align: center;
-    justify-content: center;
-
 }
 
 .div-sec3 h2 {
@@ -282,13 +265,10 @@ nav {
 }
 
 .sec-free {
-    display: grid;
-    left: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    /* align-items: center; */
     display: flex;
-
+    gap: 40px   ;
+    margin-top: 40px;
 }
 
 .sec-free h5 {
@@ -297,25 +277,23 @@ nav {
 
 .rinduratu {
     background-color: white;
-    border-radius: 10px;
-    margin: 40px;
-    padding: 40px;
+    border-radius: 10px; 
+    
 
 }
 
 .sultan {
     background-color: white;
-    border-radius: 10px;
-    margin: 40px;
-    padding: 40px;
-    margin-bottom: 10px;
+    border-radius: 10px; 
+    
+    
 }
 
 .rafatar {
     background-color: white;
     border-radius: 10px;
-    margin: 40px;
-    padding: 40px;
+    /* padding: 40px; */
+    
 
 
 }
